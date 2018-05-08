@@ -1,6 +1,6 @@
 {
   "name": "json2pot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate pot files from JSON keyed translation files.",
   "main": "index.js",
   "keywords": [
@@ -14,7 +14,8 @@
   "files": [
     "index.js",
     "pot-maker.js",
-    "translation-parser.js"
+    "translation-parser.js",
+    "utils.js"
   ],
   "dependencies": {
     "globby": "^7.1.1",
